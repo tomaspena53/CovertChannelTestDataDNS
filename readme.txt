@@ -25,3 +25,8 @@ File Set 3 (FileSet3_MixedTestFiles):
      --- Format:  "/0,1/","/domain name/"
 	 --- "0" label is normal/benign
 	 --- "1" label is exfiltration-related (sequential in order of packet delivery for each file)
+
+File Set 4 (FileSet4_PCAP):
+- Files of type .PCAP containing network packets collected from a local network during exfiltration using DNSExfiltrator
+  -- Files are named for the requestMaxSize parameter used by DNSExfiltrator, and the size of the files transmitted.
+  -- Each file contains only files of the one length, and one requestMaxSize, as indicated in the file name.
